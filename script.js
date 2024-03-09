@@ -8,8 +8,8 @@ function logText(e) {
 }
 
 divs.forEach(div => div.addEventListener('click', logText, { 
-capture: false,
-once: true
+    capture: false,
+    once: true
 }));
 
 button.addEventListener('click', () => {
